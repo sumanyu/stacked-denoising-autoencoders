@@ -4,7 +4,9 @@ Contains [scikit-learn](http://scikit-learn.org/stable/) wrappers for `StackedDe
 
 `StackedDenoisingAutoencoders` are trained greedily layer by layer. 
 
-See example usage by running `python run_mnist_stacked_ae.py` which trains a stacked autoencoder on the MNIST dataset and uses the latent features as input to a naive bayes classifier.
+See example usage by running `python run_mnist_ae.py` which trains a single layer autoencoder on the MNIST dataset and uses the latent features as input to a naive bayes classifier.
+
+Similarly, run `python run_mnist_stacked_ae.py` for a stacked two layer autoencoder.
 
 Tested with:
 * `Python 2.7.9`
